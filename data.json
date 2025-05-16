@@ -1,0 +1,79 @@
+[
+    {
+        "date":"05-05",
+        "logo":"./logo/BOOP.png",
+        "project":"BOOP",
+        "alphaType": "airdrop",
+        "benefit": 100
+    },
+    {
+        "date":"05-06",
+        "logo":"./logo/MYX.jpg",
+        "project":"MYX",
+        "alphaType": "tge",
+        "benefit": 70
+    },
+    {
+        "date":"05-07",
+        "logo":"./logo/ZKJ.jpg",
+        "project":"ZKJ",
+        "alphaType": "airdrop",
+        "benefit": 105
+    },
+    {
+        "date":"05-07",
+        "logo":"./logo/OBOL.jpg",
+        "project":"OBOL",
+        "alphaType": "airdrop",
+        "benefit": 60
+    },
+    {
+        "date":"05-08",
+        "logo":"./logo/SXT.png",
+        "project":"SXT",
+        "alphaType": "airdrop",
+        "benefit": 85
+    },
+    {
+        "date":"05-09",
+        "logo":"./logo/DOOD.png",
+        "project":"DOOD",
+        "alphaType": "airdrop",
+        "benefit": 330
+    },
+    {
+        "date":"05-12",
+        "logo":"./logo/PUFFER.png",
+        "project":"PUFFER",
+        "alphaType": "airdrop",
+        "benefit": 100
+    },
+    {
+        "date":"05-13",
+        "logo":"./logo/RDAC.png",
+        "project":"RDAC",
+        "alphaType": "airdrop",
+        "benefit": 90
+    },
+    {
+        "date":"05-14",
+        "logo":"./logo/PRAI.png",
+        "project":"PRAI",
+        "alphaType": "tge",
+        "benefit": 70
+    },
+    {
+        "date":"05-15",
+        "logo":"./logo/NXPC.png",
+        "project":"NXPC",
+        "alphaType": "airdrop",
+        "benefit": 660
+    },
+    {
+        "date":"05-16",
+        "logo":"./logo/AGT.png",
+        "project":"AGT",
+        "alphaType": "tge",
+        "benefit": 75
+    }
+]

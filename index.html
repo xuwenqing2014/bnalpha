@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="theme-color" content="#0c0d10">
+    
+    <!-- Language alternates -->
+    <link rel="alternate" hreflang="zh-CN" href="?lang=zh-CN">
+    <link rel="alternate" hreflang="en-US" href="?lang=en-US">
+    <link rel="alternate" hreflang="ja-JP" href="?lang=ja-JP">
+    <link rel="alternate" hreflang="ko-KR" href="?lang=ko-KR">
+    <link rel="alternate" hreflang="fr-FR" href="?lang=fr-FR">
+    <link rel="alternate" hreflang="de-DE" href="?lang=de-DE">
+    <link rel="alternate" hreflang="es-ES" href="?lang=es-ES">
+    <link rel="alternate" hreflang="ru-RU" href="?lang=ru-RU">
+    <link rel="alternate" hreflang="x-default" href="?lang=en-US">
+    
+    <!-- Dynamic SEO Meta Tags (will be updated by JavaScript) -->
+    <meta name="description" content="" id="metaDescription">
+    <meta name="keywords" content="" id="metaKeywords">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="" id="ogTitle">
+    <meta property="og:description" content="" id="ogDescription">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="" id="ogSiteName">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="" id="twitterTitle">
+    <meta name="twitter:description" content="" id="twitterDescription">
+    
+    <title id="pageTitle"></title>
+    <link rel="icon" type="image/svg+xml" href="./alpha.png">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+    <!-- Dynamic Structured Data (will be updated by JavaScript) -->
+    <script type="application/ld+json" id="structuredData"></script>
+
+    <!-- 结构化数据 -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "币安Alpha活动",
+        "description": "币安Alpha活动汇总：最新空投信息、TGE打新机会",
+        "publisher": {
+            "@type": "Organization",
+            "name": "Binance",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https://www.binance.com/logo.png"
+            }
+        },
+        "mainEntity": {
+            "@type": "ItemList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "币安空投活动",
+                    "description": "最新币安平台空投活动信息"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": "币安TGE活动",
+                    "description": "币安平台TGE打新机会"
+                }
+            ]
+        }
+    }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <div class="language-switcher">
+            <select class="lang-select" id="langSelect">
+                <option value="zh-CN">中文</option>
+                <option value="en-US">English</option>
+                <option value="ja-JP">日本語</option>
+                <option value="ko-KR">한국어</option>
+                <option value="fr-FR">Français</option>
+                <option value="de-DE">Deutsch</option>
+                <option value="es-ES">Español</option>
+                <option value="ru-RU">Русский</option>
+            </select>
+        </div>
+        <header>
+            <div class="header-content">
+                <h1>币安Alpha活动统计</h1>
+            </div>
+            <div class="header-decoration"></div>
+        </header>
+        
+        <main>
+            <div id="tableView" class="table-container">
+                <div class="month-filter" role="group" aria-label="月份筛选">
+                    <button class="month-btn active" data-month="5">5</button>
+                </div>
+                <div class="table-scroll">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th scope="col">日期</th>
+                                <th scope="col">项目</th>
+                                <th scope="col">类型</th>
+                                <th scope="col">收益</th>
+                            </tr>
+                        </thead>
+                        <tbody id="tableBody">
+                            <!-- Table rows will be dynamically inserted here -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <div class="footer-content">
+                <p class="footer-text" id="footerText">获取最新币安Alpha活动、空投和TGE信息</p>
+                <div class="footer-links">
+                    <a href="https://twitter.com/binancezh" target="_blank" rel="noopener" class="social-link">Twitter</a>
+                    <span class="divider">|</span>
+                    <a href="https://t.me/binancechinese" target="_blank" rel="noopener" class="social-link">Telegram</a>
+                    <span class="divider">|</span>
+                    <a href="https://accounts.marketwebb.me/register?ref=10251337" target="_blank" rel="noopener" class="social-link">
+                        <span class="download-text">下载币安</span>
+                    </a>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="i18n.js"></script>
+    <script src="script.js"></script>
+</body>
+</html> 
